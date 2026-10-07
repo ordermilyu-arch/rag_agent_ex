@@ -216,3 +216,7 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Local vector DBs and backups
+chroma_db/
+toy_pjt1_local_backup/

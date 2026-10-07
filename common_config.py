@@ -2,7 +2,7 @@ import os
 from langchain_openai import ChatOpenAI
 from dotenv import load_dotenv
 
-load_dotenv(override=True)
+load_dotenv(override=True, dotenv_path="../.env")  # 프로젝트 루트(rag_agent_ex/.env)
 api_key = os.getenv("LLM_API_KEY")
 BASE_URL = "https://monogpt.kr/api/monorouter/v1"
 
